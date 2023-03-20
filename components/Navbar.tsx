@@ -18,17 +18,15 @@ export default function Navbar() {
         </h1>
       </Link>
       <a
-        className="relative overflow-hidden rounded-lg bg-black px-20 py-6 ring-red-500/50 ring-offset-black will-change-transform focus:outline-none focus:ring-1 focus:ring-offset-2"
+        className="relative overflow-hidden rounded-full bg-black px-20 sm:px-24 py-6 ring-red-500/50 ring-offset-black will-change-transform focus:outline-none focus:ring-1 focus:ring-offset-2"
         href="https://github.com/hqasmei/captionAI"
         target="_blank"
         rel="noreferrer"
       >
-        <span className="absolute inset-px z-10 grid place-items-center rounded-lg bg-black bg-gradient-to-t from-neutral-800 text-neutral-400">
+        <span className="absolute inset-px z-10 grid place-items-center rounded-full bg-black bg-gradient-to-t from-neutral-800 text-neutral-400">
           <div className="flex flex-row space-x-2 items-center">
             <AiOutlineGithub color="white" size={25} />
-            <span className="text-gray-100">
-              Star on Github
-            </span>
+            <span className="text-gray-100">Star on Github</span>
           </div>
         </span>
         <span
