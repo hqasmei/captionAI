@@ -11,11 +11,11 @@ interface ExtendedNextApiRequest extends NextApiRequest {
   };
 }
 
-// Create a new ratelimiter, that allows 3 requests per day
+// Create a new ratelimiter, that allows 3 requests every 15 minutes
 const ratelimit = redis
   ? new Ratelimit({
       redis: redis,
-      limiter: Ratelimit.fixedWindow(3, "1440 m"),
+      limiter: Ratelimit.fixedWindow(3, "15 m"),
       analytics: true,
     })
   : undefined;
