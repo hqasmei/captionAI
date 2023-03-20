@@ -5,7 +5,7 @@ This project creates captions for photos using AI.
 [![CaptionAI](./public/screenshot.png)](https://captionai.vercel.app/)
 
 ## How it works
-Developed this using [this template](https://github.com/Nutlope/restorePhotos)
+Developed this using [this template.](https://github.com/Nutlope/restorePhotos)
 
 It uses an ML model from salesforce called [BLIP](https://github.com/salesforce/BLIP) on [Replicate](https://replicate.com/) to convert images into text. This application gives you the ability to upload any photo, which will send it through this ML Model using a Next.js API route, and return your caption.
 
