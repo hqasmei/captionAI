@@ -27,7 +27,7 @@ export default function Footer() {
           rel="noreferrer"
           className="font-bold transition hover:text-white/50"
         >
-          Upstash Redis,{" "}
+          Upstash Redis{" "}
         </a>
         and{" "}
         <a
