@@ -14,14 +14,6 @@ export default function Footer() {
           Replicate,{" "}
         </a>
         <a
-          href="https://upload.io"
-          target="_blank"
-          rel="noreferrer"
-          className="font-bold transition hover:text-white/50"
-        >
-          Upload,{" "}
-        </a>
-        <a
           href="https://upstash.com/"
           target="_blank"
           rel="noreferrer"
