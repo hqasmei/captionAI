@@ -24,12 +24,12 @@ export default function HeroSection() {
           <span className="relative"> using AI.</span>
         </span>
       </h1>
-      <p className="mx-auto mt-12 max-w-xl text-lg text-stone-400 leading-7">
+      <p className="mx-auto mt-4 md:mt-12 max-w-xl text-lg text-stone-400 leading-7">
         Take your images to the next level with custom captions.
       </p>
       <div className="flex justify-center space-x-4">
         <Link
-          className="bg-white rounded-xl text-black font-medium px-4 py-3 sm:mt-10 mt-8 hover:bg-white/80"
+          className="bg-white rounded-xl text-black font-medium px-4 py-3 sm:mt-10 mt-4 hover:bg-white/80"
           href="/caption"
         >
           Create a caption
