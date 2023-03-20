@@ -32,7 +32,7 @@ export default function HeroSection() {
           className="bg-white rounded-xl text-black font-medium px-4 py-3 sm:mt-10 mt-8 hover:bg-white/80"
           href="/caption"
         >
-          Generate a caption
+          Create a caption
         </Link>
       </div>
 
@@ -51,7 +51,7 @@ export default function HeroSection() {
             </div>
 
             <div className="sm:mt-0 mt-8 w-full md:w-1/2">
-              <h2 className="mb-1 font-medium text-lg">Created Caption</h2>
+              <h2 className="mb-1 font-medium text-lg">Generated Caption</h2>
               <textarea
                 className="w-full h-32 p-2 text-gray-700 border border-gray-300 rounded-md resize-none focus:outline-none focus:ring"
                 placeholder="Enter text here..."
