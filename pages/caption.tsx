@@ -57,7 +57,7 @@ const options = {
     }
     return isSafe
       ? undefined
-      : "Detected a NSFW image which is not allowed. If this was a mistake, please contact me at hassan@hey.com";
+      : "Detected a NSFW image which is not allowed. If this was a mistake, please contact me at hosna.qasmei@gmail.com";
   },
 };
 
