@@ -1,8 +1,8 @@
-# [CaptionAI]()
+# [CaptionAI](https://captionai.vercel.app/)
 
 This project creates captions for photos using AI. 
 
-[![CaptionAI](./public/screenshot.png)]()
+[![CaptionAI](./public/screenshot.png)](https://captionai.vercel.app/)
 
 ## How it works
 

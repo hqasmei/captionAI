@@ -18,7 +18,7 @@ export default function Navbar() {
         </h1>
       </Link>
       <a
-        href="https://github.com/hqasmei/platoio"
+        href="https://github.com/hqasmei/captionAI"
         target="_blank"
         rel="noreferrer"
       >
