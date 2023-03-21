@@ -104,11 +104,11 @@ const Home: NextPage = () => {
       body: JSON.stringify({ imageUrl: fileUrl }),
     });
 
-    let newPhoto = await res.json();
+    let newCaption = await res.json();
     if (res.status !== 200) {
-      setError(newPhoto);
+      setError(newCaption);
     } else {
-      setCaption(newPhoto);
+      setCaption(newCaption);
     }
     setLoading(false);
   }
