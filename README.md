@@ -43,6 +43,10 @@ Then, run the application in the command line and it will be available at `http:
 npm run dev
 ```
  
+## Deploy
+
+When deploying on Vercel also include the Environmentable Variables.
+
 ## Powered by
 
 This example is powered by the following 3 services:
