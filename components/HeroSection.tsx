@@ -28,8 +28,16 @@ export default function HeroSection() {
         Take your images to the next level with custom captions.
       </p>
       <div className="flex justify-center space-x-4">
+        <a
+          className="bg-white rounded-xl text-black font-medium px-4 py-3 sm:mt-10 mt-8 hover:bg-gray-100 border"
+          href="https://youtu.be/9TZsh_-y9DA"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Learn how it's built
+        </a>
         <Link
-          className="bg-white rounded-xl text-black font-medium px-4 py-3 sm:mt-10 mt-4 hover:bg-white/80"
+          className="bg-[#4b4cb7] rounded-xl text-white font-medium px-4 py-3 sm:mt-10 mt-4 hover:bg-[#4b4cb7]/80"
           href="/caption"
         >
           Create a caption
